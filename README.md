@@ -30,3 +30,6 @@ const subtract = (a, b) => a + b;
 
 Hal ini dikarenakan saat kita menemukan error pada pengecekan pertama, kode langsung dihentikan oleh throw.
 Karenanya kita akan meng-_isolasi testing code_ kita dengan `testing-framework.js`.
+
+Meski demikian, sekarang kita masih punya kendala untuk menguji kode kita yang bersifat _asyncronous_.
+Karenanya kita dapat membuat testing function kita _asyncronous_ seperti pada `async-await.js`.
