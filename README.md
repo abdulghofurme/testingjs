@@ -13,3 +13,9 @@ throw new Error(`${result} is not equal to ${expected}`);
 
 Error: -4 is not equal to 10
 ```
+
+Alih-alih menjadikan _testing code_ dan _code_ kita satu file,
+kita bisa memisahkan keduanya agar lebih rapi dan mudah untuk di-_maintain_.
+Selanjutnya kita refactor kode kita yang berulang, seperti pengecekan actual dengan expected result kita.
+
+
